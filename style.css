@@ -191,16 +191,16 @@ nav{
   z-index: 2;
   margin-top: 00px;
   width: 50%;
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
   box-shadow: 0 10px 20px 20px rgba(0, 0, 0, 0.12);
 }
 .box{
-  margin-left: -50px;
+  margin-left: -100px;
   margin-top: 50px;
   width: 50%;
-  max-width: 300px;
-  height: 300px;
+  max-width: 250px;
+  height: 250px;
   border: 5px solid whitesmoke;
   box-shadow: 0 10px 20px 20px rgba(0, 0, 0, 0.12);
 }
@@ -610,6 +610,81 @@ nav{
 
 }
 
+/*Laptop2*/
+@media all and (max-width:1300px) {
+  /*About*/
+.emeged2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  z-index: 2;
+  margin-top: 0px;
+  margin-left: -70px;
+  width: 50%;
+  max-width: 200px;
+  height: 200px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+.box{
+  margin-left: -130px;
+  margin-top: 50px;
+  width: 50%;
+  min-width: 200px;
+  height: 200px;
+  border: 5px solid whitesmoke;
+}
+}
+/*Tablet2*/
+@media all and (max-width:770px) {
+  /*About*/
+.emeged2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  z-index: 2;
+  margin-top: 0px;
+  margin-left: -70px;
+  width: 50%;
+  max-width: 200px;
+  height: 200px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+.box{
+  margin-left: -130px;
+  margin-top: 50px;
+  width: 50%;
+  min-width: 200px;
+  height: 200px;
+  border: 5px solid whitesmoke;
+}
+.marg2{
+  margin-left: 350px;
+  margin-top: 400px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+.AMM2{
+  margin-top: 400px;
+  margin-left: 500px;
+  margin-right: 00px;
+  color: whitesmoke;
+}
+.AMM{
+  margin-left: 70px;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Julius Sans One', sans-serif;
+  text-shadow: 10px 10px 50px #000000;
+}
+.wews{
+  margin-left: 70px;
+}
+}
+
 /*Laptop*/
 @media all and (max-width:992px) {
   /*About*/
@@ -638,7 +713,7 @@ nav{
   margin-top: 200px;
 }
 .marg2{
-  margin-left: -15px;
+  margin-left: 50px;
   margin-top: 400px;
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 700;
@@ -900,11 +975,11 @@ nav{
     box-shadow: 0 10px 20px 20px rgba(0, 0, 0, 0.12);
   }
   .glass2{
-    margin-top: 150px;
+    margin-top: 0px;
     width: 100%;
     height: 100%;
     max-width: 900px;
-    max-height: 800px;
+    max-height: auto;
     background: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0));
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
@@ -1111,11 +1186,11 @@ nav{
 }
 
 .glass2{
-  margin-top: 150px;
+  margin-top: 0px;
   width: 100%;
   height: 100%;
   max-width: 900px;
-  max-height: 700px;
+  max-height: auto;
   background: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0));
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -1207,6 +1282,499 @@ nav{
 }
 .daz{
   margin-left: 20px;
+}
+.zoom {
+  background-color: green;
+  transition: transform 1s; /* Animation */
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*Footer*/
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+}
+
+/*Mobile*/
+@media all and (max-width:450px) {
+  /*Header*/
+  .carve2{
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(204, 204, 204);
+    text-shadow: 10px 10px 30px #000000;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  .carve3{
+    margin-top: -20px;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(204, 204, 204);
+    text-shadow: 10px 10px 30px #000000;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  .emeged{
+    margin-top: 80px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(204, 204, 204);
+  }
+  .webdev{
+    margin-top: -10px;
+    margin-left: 10px;
+    color: rgb(204, 204, 204);
+    font-size: 1rem;
+    text-shadow: 10px 10px 30px #000000;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  .parallax{
+    display: flex;
+    justify-content: flex-start;
+    background-image: url('Img/wp3.jpg');
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .glass{
+    width:50vw;
+    height: 50vh;
+    background: linear-gradient(135deg,rgba(105, 240, 87, 0.1), rgba(13, 255, 45, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+/*About2*/
+.emeged2{
+  margin-left: -50px;
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  box-shadow: 0 10px 20px 20px rgba(0, 0, 0, 0.12);
+}
+.box{
+  display: none;
+}
+.marg{
+  margin-top: 280px;
+}
+.marg2{
+  margin-left: -10px;
+  margin-top: 180px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+.AMM2{
+  margin-top: 300px;
+  margin-left:  -600px;
+  margin-right: 00px;
+  color: whitesmoke;
+  text-align: center;
+}
+.AMM{
+  color: whitesmoke;
+  margin-left:  -5px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+}
+.wews{
+  margin-left: 0px;
+}
+.Download{
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  min-width: 250px;
+  min-height: 50px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn-three {
+  color: whitesmoke;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-three::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.1);
+  transition: all 0.3s;
+}
+.btn-three:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.btn-three::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+.button {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 1s
+}
+
+/*Programming*/
+.Prog_img{
+  width: 50%;
+  max-width: 50px;
+  height: auto;
+  margin: 20px;
+}
+
+.FontL{
+  color: whitesmoke;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 20px;
+  text-align: center;
+}
+.FontL2{
+  margin-right: 20px;
+  color: whitesmoke;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+
+.glass2{
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  max-height: auto;
+  background: linear-gradient(135deg,rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0));
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+
+}
+.smoke{
+  background-color: rgb(73, 73, 73);
+}
+
+/*Languages*/
+.parallax2{
+  display: flex;
+  justify-content: flex-start;
+  background-image: url('Img/wp2.jpg');
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flip-card-back H1{
+  font-size: 10px;
+}
+.diz{
+  display: none;
+}
+.flip-card {
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+}
+/*Websites*/
+.FontW{
+  margin: 20px;
+  color: whitesmoke;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  width: 1000px;
+  text-align: center;
+}
+.FontW2{
+  margin: 0px;
+  color: whitesmoke;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+.emeged3{
+  margin-top: 0px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  box-shadow: 0 10px 20px 20px rgba(0, 0, 0, 0.12);
+}
+.daz{
+  margin-left: 0px;
 }
 .zoom {
   background-color: green;
